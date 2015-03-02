@@ -4,11 +4,11 @@ default: &default
   timeout: 5000
 development:
   <<: *default
-  database: defalt
+  database: jamify_development
   host: localhost
 test:
   <<: *default
-  database: default
+  database: jamify_test
   host: localhost
 production:
   <<: *default
